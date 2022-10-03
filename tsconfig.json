@@ -1,0 +1,15 @@
+{
+  "include": ["src", "test"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "ESnext"
+  }
+}
